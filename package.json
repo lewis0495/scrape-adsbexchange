@@ -1,15 +1,13 @@
 {
   "name": "scrape-adsbexchange",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A Puppeteer app for scraping ADSB Exchange",
+  "main": "scrape.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node scrape.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "puppeteer": "^22.12.1"
+    "puppeteer": "^10.0.0",
+    "fs": "0.0.1-security"
   }
 }
